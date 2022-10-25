@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_phoenix.mk
+    $(LOCAL_DIR)/superior_phoenix.mk
