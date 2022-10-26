@@ -10,14 +10,19 @@ $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_phoenix
+PRODUCT_NAME := lineage_phoenix
 PRODUCT_DEVICE := phoenix
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X2
 PRODUCT_MANUFACTURER := Xiaomi
+RICE_MAINTAINER := Risan (@Risan4255)
+TARGET_BUILD_GRAPHENEOS_CAMERA := ture
+TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+RICE_PACKAGE_TYPE :=  Gapps
+TARGET_USE_PIXEL_FINGERPRINT := true
 
 # PixelExperience Properties
 TARGET_GAPPS_ARCH := arm64
