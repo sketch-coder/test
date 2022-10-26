@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit-GAPPS
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
-
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common PixelExperience stuff.
