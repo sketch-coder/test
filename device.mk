@@ -472,7 +472,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     $(LOCAL_PATH)/configs/seccomp/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
 
-# Sensor
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge
 
