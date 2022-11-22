@@ -93,8 +93,8 @@
     <string name="smart_charging_battery_temperature">Battery temperature</string>
     <string name="smart_charging_current_max">Current intensity</string>
     <string name="smart_charging_current_max_entry_default">Default</string>
-    <string name="smart_charging_current_max_entry_3000">3000 mA</string>
-    <string name="smart_charging_current_max_entry_2500">2500 mA</string>
+    <string name="smart_charging_current_max_entry_2000">3000 mA</string>
+    <string name="smart_charging_current_max_entry_2000">2500 mA</string>
     <string name="smart_charging_current_max_entry_2000">2000 mA</string>
     <string name="smart_charging_current_max_entry_1800">1800 mA</string>
     <string name="smart_charging_current_max_entry_1500">1500 mA</string>
