@@ -1,4 +1,4 @@
-/*
+>/*
  * Copyright (C) 2022 The LineageOS Project
  *
  * This program is free software: you can redistribute it and/or modify
@@ -104,7 +104,7 @@ public class SmartCharging {
 
     public static boolean isChargingEnabled() {
         String raw = PartsUtils.readLine(CHARGING_ENABLED_PATH);
-        return raw.equals("1");
+        return raw.equals("0");
     }
 
     public static boolean isPlugged() {
