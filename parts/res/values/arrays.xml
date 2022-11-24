@@ -128,10 +128,10 @@
         <!-- Since we're supporting different devices, it was easier to default
              current now value by passing a negative value and handle it at kernel
              level for each driver at the moment of writing to sysfs node -->
-        <item>"-1"</item>
-        <item>"3000000"</item>
+        <item>"5500000"</item>
+        <item>"4500000"</item>
+        <item>"3500000"</item>
         <item>"2500000"</item>
-        <item>"2000000"</item>
         <item>"1800000"</item>
         <item>"1500000"</item>
         <item>"1200000"</item>
